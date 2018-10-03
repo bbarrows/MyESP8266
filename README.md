@@ -107,3 +107,23 @@ https://s3.amazonaws.com/rbat.es/codebenderDriver.zip
 
 
 
+
+# Firmware
+
+USE THE WEBSITE
+Its awesome
+
+ http://nodemcu-build.com/
+
+
+Or goto
+
+ ~/repos/nodemcu-firmware
+ and run
+
+  docker run --rm -ti -v `pwd`:/opt/nodemcu-firmware marcelstoer/nodemcu-build build
+
+
+sudo esptool.py -p /dev/tty.SLAB_USBtoUART   write_flash -fm dio  0x00000 ~/repos/nodemcu-firmware/bin/nodemcu_float_master_20181003-0458.bin 0x3fc000  ~/Downloads/ESP8266_NONOS_SDK-2.2.0/bin/esp_init_data_default_v08.bin 
+
+
