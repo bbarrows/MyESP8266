@@ -35,11 +35,6 @@ SSD1306Wire  display(0x3c, D3, D5);
 // SH1106 display(0x3c, D3, D5);
 
 
-#define DEMO_DURATION 3000
-typedef void (*Demo)(void);
-
-int demoMode = 0;
-int counter = 1;
 
 void setup() {
   Serial.begin(115200);
@@ -55,6 +50,9 @@ void setup() {
  
 
 }
+
+// For more check examples
+// https://github.com/ThingPulse/esp8266-oled-ssd1306/blob/master/examples/SSD1306SimpleDemo/SSD1306SimpleDemo.ino
 
 void loop() {
   // display.clear();

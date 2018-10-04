@@ -240,7 +240,10 @@ This wiring and this example work!!
 
 https://youtu.be/U1TTFYCe2vg?t=113
 
-My LCD Screen is bad though..
+My LCD Screen is mostly bad though prob due to shipping..
+
+exmaples are at
+https://github.com/ThingPulse/esp8266-oled-ssd1306/blob/master/examples/SSD1306SimpleDemo/SSD1306SimpleDemo.ino
 
 
 
