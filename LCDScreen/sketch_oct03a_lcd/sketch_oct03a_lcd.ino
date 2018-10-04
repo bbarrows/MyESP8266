@@ -60,7 +60,7 @@ void loop() {
   display.setTextAlignment(TEXT_ALIGN_LEFT);
   // This should work for no screen flipping
   // Maybe a 50 for x coord
-  //display.drawString(10, 10, "Hello Brad");
+  //display.drawString(50, 10, "Hello Brad");
 
   display.drawString(50, 50, "Hello Brad");
   // This is the only good line I can get on the broken screen
