@@ -17,7 +17,7 @@ void setup() {
   if(result==true) {
     IPAddress myIP = WiFi.softAPIP();
   
-    Serial.println("done!");
+    Serial.println("done!");X
     Serial.println("");
     Serial.print("WiFi network name: ");
     Serial.println(ssid);

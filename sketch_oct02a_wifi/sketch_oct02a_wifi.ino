@@ -2,8 +2,8 @@
 #include <Arduino.h>
 
 
-const char* ssid     = "ssid";
-const char* password = "pass";
+const char* ssid     = "somethgin";
+const char* password = "somethign";
 
 
 

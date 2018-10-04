@@ -2,9 +2,10 @@
 #include <ESP8266WiFi.h>
 #include <Arduino.h>
 
+const char* ssid     = "ASSID";
+const char* password = "PASSWORD";
 
-const char* ssid     = "ssid";
-const char* password = "pass";
+
 
 const short int BUILTIN_LED1 = 2; //GPIO2
 

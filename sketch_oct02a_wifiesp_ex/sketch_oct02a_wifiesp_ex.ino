@@ -6,8 +6,8 @@
 // SoftwareSerial Serial1(6, 7); // RX, TX
 #endif
 
-char ssid[] = "guestguest";            // your network SSID (name)
-char pass[] = "guestguest";        // your network password
+char ssid[] = "sadfsdf";            // your network SSID (name)
+char pass[] = "asdfasdfasdf";        // your network password
 int status = WL_IDLE_STATUS;     // the Wifi radio's status
 
 void setup()
@@ -20,6 +20,7 @@ void setup()
   WiFi.init(&Serial1);
 
   // check for the presence of the shield
+  if (WiFi.status() == WL_NO_SHIELD) {
     Serial.println("WiFi shield not present");
     // don't continue
     while (true);
