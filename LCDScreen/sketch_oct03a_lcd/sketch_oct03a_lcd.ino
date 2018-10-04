@@ -65,16 +65,17 @@ void loop() {
   //display.drawString(10, 10, "Hello Brad");
 
   display.drawString(50, 50, "Hello Brad");
+  // This is the only good line I can get on the broken screen
     
 
   // X 0 IS RIGHT
   // Y 0 IS BOTTOM 
   // Y 64 IS BOTTOM FLIPPED
   // 128X64 
-  display.drawVerticalLine(126, 0, 64);
-  display.drawVerticalLine(120, 0, 64);
-  display.drawVerticalLine(40, 0, 64);
-  display.drawVerticalLine(30, 0, 64);
-  display.drawVerticalLine(5, 0, 64);
+  //display.drawVerticalLine(126, 0, 64);
+  //display.drawVerticalLine(120, 0, 64);
+  //display.drawVerticalLine(40, 0, 64);
+  //display.drawVerticalLine(30, 0, 64);
+  //display.drawVerticalLine(5, 0, 64);
   display.display();
 }
